@@ -58,15 +58,17 @@ input, button, textarea, select {
 
 .recipe-title{
     font-family: "Young Serif", serif;
+    font-weight: 400;
     line-height: 1;
     font-size: 2.25rem;
     color: var(--stone900);
     margin-bottom: 1.5rem;
 }
 
-.recipe-intro, .preparation{
-    margin-bottom: 2rem;
-} 
+/* .recipe-intro, .preparation{
+    margin-bottom: 1rem;
+}  */
+
 .line{
     border: 1px solid var(--stone150);
 }
@@ -101,6 +103,7 @@ input, button, textarea, select {
 
 .ingredients-title, .instructions-title, .nutrition-title{
     font-family: "Young Serif", serif;
+    font-weight: 400;
     font-size: 1.75rem;
     line-height: 1;
     color: var(--brown);
@@ -143,7 +146,7 @@ tr td{
 }
 
 
-#weight{
+.weight{
     color: var(--brown);
     font-weight: 700;
     padding-left: 0;
