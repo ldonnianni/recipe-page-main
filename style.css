@@ -81,7 +81,9 @@ input, button, textarea, select {
 
 .preparation .preparation-title{
     color: var(--rose800);
+    font-size: 1.25;
     font-weight: 500;
+    line-height: 1;
     margin-bottom: 1rem;
 }
 
